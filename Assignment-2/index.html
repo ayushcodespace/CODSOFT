@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fce9dd;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #ffcab0;
+      color: #333;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      background-color: #ffd9c3;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .about, .services, .contact {
+      margin-bottom: 60px;
+    }
+
+    .about h2, .services h2, .contact h2 {
+      color: #c15f5f;
+      margin-bottom: 20px;
+    }
+
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .services li {
+      background: #fff3ec;
+      margin: 10px 0;
+      padding: 15px;
+      border-left: 5px solid #ff9f80;
+      border-radius: 6px;
+    }
+
+    form {
+      background-color: #fff3ec;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+    }
+
+    form button {
+      background-color: #ff9f80;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #ff815c;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffd9c3;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ayush Srivastava's Landing Page</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    Hi, I'm Ayush Srivastava — a passionate web development enthusiast with a growing skill set in HTML, CSS, and JavaScript. I'm currently exploring the endless possibilities of front-end design and love building sleek, responsive web pages that deliver both form and function.
+  </p>
+  <p>
+    My journey began with curiosity and evolved into a creative pursuit of code. Whether it's crafting user-friendly interfaces, experimenting with design trends, or solving layout challenges, I enjoy every step of the process. This landing page is just one example of my early work as I continue to learn and grow.
+  </p>
+  <p>
+    Beyond web development, I’m also deeply interested in creating meaningful digital experiences, expressing ideas through writing, and connecting tech with storytelling. I believe in self-learning, consistency, and adding value through every project I build.
+  </p>
+  <p>
+    If you're looking to collaborate, provide feedback, or just say hi, feel free to reach out. I'm always open to learning from others and sharing what I know.
+  </p>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Web Design & Development</li>
+      <li>Creative Portfolio Building</li>
+      <li>Landing Page Optimization</li>
+      <li>Frontend UI/UX Consulting</li>
+    </ul>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Your email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" placeholder="Your message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 ayushcodespace. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
