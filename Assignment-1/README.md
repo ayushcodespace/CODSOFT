@@ -1,39 +1,26 @@
-# Ayush Srivastava — Portfolio Website
+# 🌐 Portfolio Website - CODSOFT Assignment 1
 
-This repository contains the source code for my personal portfolio website, developed specifically for showcasing my technical skills, academic projects, and professional profile during placement drives.
+This is a responsive portfolio website created as part of **CODSOFT Internship - Web Development Task 1**.
 
-The website is designed with simplicity, responsiveness, and clarity in mind, using core web technologies without external frameworks.
+The layout was inspired by a previous version of my portfolio (`ayush-portfolio`), but this version includes **new sections** and customizations as per the internship task requirements, such as:
 
-## 🔗 Live Website
-
-👉 [https://ayushcodespace.github.io/ayush-portfolio](https://ayushcodespace.github.io/ayush-portfolio)
-
-## 🛠 Tech Stack
-
-- *HTML5*
-- *CSS3*
-- *JavaScript*
-
-## 📌 Purpose
-
-This portfolio serves as a central hub to present:
-- My technical competencies
-- Ongoing and completed projects
-- Contact and professional details
-
-It is a work in progress and will be updated regularly as I expand my project base and refine the design.
-
-## 📄 Template Credit
-
-This project was initially based on an open-source template. I have modified and customized it to suit my profile and use case. Credit to the original creator for the design foundation.
-
-## 🚀 Future Enhancements
-
-- Dynamic project showcase with GitHub integration
-- Contact form with email API
-- Dark mode support
-- Final version for deployment on ayushcodespace.github.io as the official homepage
+- 📄 Resume Section with Download Button
+- 🎯 Updated styling and responsiveness
+- 📱 Mobile-friendly adjustments
 
 ---
 
-Thank you for visiting. Feedback and suggestions are welcome.
+## 🔗 Hosted Version
+
+> ⚠️ A previous version of this website is live here:  
+> [https://ayushcodespace.github.io/ayush-portfolio](https://ayushcodespace.github.io/ayush-portfolio)
+
+However, **this version (Assignment-1) is not hosted yet**. It includes additional sections and code changes made specifically for the internship task.
+
+---
+
+## 💻 Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (basic)
